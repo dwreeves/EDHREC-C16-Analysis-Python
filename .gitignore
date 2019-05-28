@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+.cache/
+.pytest_cache/
+data/atraxa.csv
+data/breya.csv
+data/kynaios.csv
+data/mtgallprices.xlsx
+data/saskia.csv
+data/yidris.csv
+*.tmp
+*.bak

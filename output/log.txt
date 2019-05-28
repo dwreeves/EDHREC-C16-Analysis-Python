@@ -1,0 +1,445 @@
+            count       mean        std   min   25%   50%   75%   max
+commander                                                            
+atraxa     1565.0  69.391693  19.557785  18.0  57.0  74.0  85.0  99.0
+breya      1082.0  62.482440  19.354241  16.0  49.0  65.0  78.0  99.0
+kynaios     623.0  64.333868  19.402264  17.0  51.0  69.0  80.0  96.0
+saskia      552.0  66.543478  20.380365  14.0  55.0  73.0  82.0  98.0
+yidris      818.0  69.243276  20.031755  17.0  57.0  76.0  85.0  96.0
+Optimization terminated successfully.
+         Current function value: 0.526345
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                 4640
+Model:                          Probit   Df Residuals:                     4638
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                  0.1188
+Time:                         10:23:46   Log-Likelihood:                -2442.2
+converged:                        True   LL-Null:                       -2771.6
+Covariance Type:             nonrobust   LLR p-value:                2.731e-145
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.3246      0.041      7.862      0.000       0.244       0.406
+precon_overlap    -0.0302      0.001    -23.000      0.000      -0.033      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.476146
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                 4640
+Model:                         Probit   Df Residuals:                     4638
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1212
+Time:                        10:23:46   Log-Likelihood:                -2209.3
+converged:                       True   LL-Null:                       -2514.0
+Covariance Type:            nonrobust   LLR p-value:                1.497e-134
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.1657      0.043      3.837      0.000       0.081       0.250
+precon_overlap    -0.0312      0.001    -21.658      0.000      -0.034      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.561977
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                 4640
+Model:                         Probit   Df Residuals:                     4638
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1220
+Time:                        10:23:46   Log-Likelihood:                -2607.6
+converged:                       True   LL-Null:                       -2970.0
+Covariance Type:            nonrobust   LLR p-value:                1.173e-159
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.4989      0.040     12.362      0.000       0.420       0.578
+precon_overlap    -0.0302      0.001    -24.380      0.000      -0.033      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.404673
+         Iterations 7
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                 4640
+Model:                         Probit   Df Residuals:                     4638
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1366
+Time:                        10:23:46   Log-Likelihood:                -1877.7
+converged:                       True   LL-Null:                       -2174.8
+Covariance Type:            nonrobust   LLR p-value:                3.061e-131
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.0320      0.047      0.684      0.494      -0.060       0.124
+precon_overlap    -0.0348      0.002    -20.533      0.000      -0.038      -0.031
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.545418
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                 1565
+Model:                          Probit   Df Residuals:                     1563
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                  0.1091
+Time:                         10:23:46   Log-Likelihood:                -853.58
+converged:                        True   LL-Null:                       -958.11
+Covariance Type:             nonrobust   LLR p-value:                 2.199e-47
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.2769      0.066      4.180      0.000       0.147       0.407
+precon_overlap    -0.0291      0.002    -13.083      0.000      -0.033      -0.025
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.494052
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                 1565
+Model:                         Probit   Df Residuals:                     1563
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1255
+Time:                        10:23:46   Log-Likelihood:                -773.19
+converged:                       True   LL-Null:                       -884.15
+Covariance Type:            nonrobust   LLR p-value:                 3.454e-50
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.1937      0.070      2.777      0.005       0.057       0.330
+precon_overlap    -0.0327      0.003    -12.992      0.000      -0.038      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.571926
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                 1565
+Model:                         Probit   Df Residuals:                     1563
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1194
+Time:                        10:23:46   Log-Likelihood:                -895.06
+converged:                       True   LL-Null:                       -1016.5
+Covariance Type:            nonrobust   LLR p-value:                 9.639e-55
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.4700      0.065      7.181      0.000       0.342       0.598
+precon_overlap    -0.0304      0.002    -14.133      0.000      -0.035      -0.026
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.437252
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                 1565
+Model:                         Probit   Df Residuals:                     1563
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1277
+Time:                        10:23:46   Log-Likelihood:                -684.30
+converged:                       True   LL-Null:                       -784.51
+Covariance Type:            nonrobust   LLR p-value:                 1.683e-45
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.0199      0.073      0.272      0.786      -0.124       0.164
+precon_overlap    -0.0338      0.003    -12.090      0.000      -0.039      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.519475
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                 1082
+Model:                          Probit   Df Residuals:                     1080
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                  0.1411
+Time:                         10:23:46   Log-Likelihood:                -562.07
+converged:                        True   LL-Null:                       -654.39
+Covariance Type:             nonrobust   LLR p-value:                 4.722e-42
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.5889      0.097      6.086      0.000       0.399       0.779
+precon_overlap    -0.0334      0.003    -12.220      0.000      -0.039      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.474711
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                 1082
+Model:                         Probit   Df Residuals:                     1080
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1551
+Time:                        10:23:46   Log-Likelihood:                -513.64
+converged:                       True   LL-Null:                       -607.90
+Covariance Type:            nonrobust   LLR p-value:                 6.694e-43
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.5158      0.101      5.097      0.000       0.317       0.714
+precon_overlap    -0.0362      0.003    -12.016      0.000      -0.042      -0.030
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.555804
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                 1082
+Model:                         Probit   Df Residuals:                     1080
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1410
+Time:                        10:23:46   Log-Likelihood:                -601.38
+converged:                       True   LL-Null:                       -700.10
+Covariance Type:            nonrobust   LLR p-value:                 7.538e-45
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.7638      0.095      8.025      0.000       0.577       0.950
+precon_overlap    -0.0331      0.003    -12.751      0.000      -0.038      -0.028
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.401307
+         Iterations 7
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                 1082
+Model:                         Probit   Df Residuals:                     1080
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1823
+Time:                        10:23:46   Log-Likelihood:                -434.21
+converged:                       True   LL-Null:                       -531.02
+Covariance Type:            nonrobust   LLR p-value:                 5.191e-44
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.4294      0.110      3.918      0.000       0.215       0.644
+precon_overlap    -0.0414      0.004    -11.640      0.000      -0.048      -0.034
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.442072
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                  623
+Model:                          Probit   Df Residuals:                      621
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                 0.07571
+Time:                         10:23:46   Log-Likelihood:                -275.41
+converged:                        True   LL-Null:                       -297.97
+Covariance Type:             nonrobust   LLR p-value:                 1.853e-11
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.1490      0.128     -1.166      0.244      -0.399       0.101
+precon_overlap    -0.0236      0.004     -6.163      0.000      -0.031      -0.016
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.369056
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                  623
+Model:                         Probit   Df Residuals:                      621
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                 0.05967
+Time:                        10:23:46   Log-Likelihood:                -229.92
+converged:                       True   LL-Null:                       -244.51
+Covariance Type:            nonrobust   LLR p-value:                 6.597e-08
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.4658      0.136     -3.422      0.001      -0.733      -0.199
+precon_overlap    -0.0204      0.004     -4.990      0.000      -0.028      -0.012
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.504919
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                  623
+Model:                         Probit   Df Residuals:                      621
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                 0.07266
+Time:                        10:23:46   Log-Likelihood:                -314.56
+converged:                       True   LL-Null:                       -339.21
+Covariance Type:            nonrobust   LLR p-value:                 2.205e-12
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.0150      0.121      0.124      0.901      -0.222       0.251
+precon_overlap    -0.0228      0.003     -6.547      0.000      -0.030      -0.016
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.264261
+         Iterations 7
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                  623
+Model:                         Probit   Df Residuals:                      621
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                 0.07973
+Time:                        10:23:46   Log-Likelihood:                -164.63
+converged:                       True   LL-Null:                       -178.90
+Covariance Type:            nonrobust   LLR p-value:                 9.237e-08
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.6364      0.160     -3.975      0.000      -0.950      -0.323
+precon_overlap    -0.0249      0.005     -4.679      0.000      -0.035      -0.014
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.511606
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                  552
+Model:                          Probit   Df Residuals:                      550
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                  0.1116
+Time:                         10:23:46   Log-Likelihood:                -282.41
+converged:                        True   LL-Null:                       -317.87
+Covariance Type:             nonrobust   LLR p-value:                 3.725e-17
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.2348      0.123      1.904      0.057      -0.007       0.476
+precon_overlap    -0.0297      0.004     -7.361      0.000      -0.038      -0.022
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.476697
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                  552
+Model:                         Probit   Df Residuals:                      550
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                 0.08134
+Time:                        10:23:46   Log-Likelihood:                -263.14
+converged:                       True   LL-Null:                       -286.44
+Covariance Type:            nonrobust   LLR p-value:                 8.708e-12
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0734      0.125     -0.588      0.557      -0.318       0.172
+precon_overlap    -0.0244      0.004     -6.102      0.000      -0.032      -0.017
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.566241
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                  552
+Model:                         Probit   Df Residuals:                      550
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1050
+Time:                        10:23:46   Log-Likelihood:                -312.56
+converged:                       True   LL-Null:                       -349.24
+Covariance Type:            nonrobust   LLR p-value:                 1.086e-17
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.3957      0.117      3.384      0.001       0.167       0.625
+precon_overlap    -0.0277      0.004     -7.706      0.000      -0.035      -0.021
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.375662
+         Iterations 7
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                  552
+Model:                         Probit   Df Residuals:                      550
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1060
+Time:                        10:23:46   Log-Likelihood:                -207.37
+converged:                       True   LL-Null:                       -231.94
+Covariance Type:            nonrobust   LLR p-value:                 2.365e-12
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.2048      0.143     -1.429      0.153      -0.486       0.076
+precon_overlap    -0.0303      0.005     -5.868      0.000      -0.040      -0.020
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.544312
+         Iterations 6
+                           Probit Regression Results                           
+===============================================================================
+Dep. Variable:     has_mana_confluence   No. Observations:                  818
+Model:                          Probit   Df Residuals:                      816
+Method:                            MLE   Df Model:                            1
+Date:                 Tue, 28 May 2019   Pseudo R-squ.:                  0.1441
+Time:                         10:23:46   Log-Likelihood:                -445.25
+converged:                        True   LL-Null:                       -520.21
+Covariance Type:             nonrobust   LLR p-value:                 1.808e-34
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.5161      0.095      5.441      0.000       0.330       0.702
+precon_overlap    -0.0351      0.003    -10.509      0.000      -0.042      -0.029
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.487601
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:      has_city_of_brass   No. Observations:                  818
+Model:                         Probit   Df Residuals:                      816
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1459
+Time:                        10:23:46   Log-Likelihood:                -398.86
+converged:                       True   LL-Null:                       -466.99
+Covariance Type:            nonrobust   LLR p-value:                 1.739e-31
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.3102      0.101      3.067      0.002       0.112       0.508
+precon_overlap    -0.0372      0.004     -9.652      0.000      -0.045      -0.030
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.561668
+         Iterations 6
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:             has_either   No. Observations:                  818
+Model:                         Probit   Df Residuals:                      816
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1558
+Time:                        10:23:46   Log-Likelihood:                -459.44
+converged:                       True   LL-Null:                       -544.25
+Covariance Type:            nonrobust   LLR p-value:                 8.998e-39
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.6978      0.094      7.434      0.000       0.514       0.882
+precon_overlap    -0.0361      0.003    -11.230      0.000      -0.042      -0.030
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.434209
+         Iterations 7
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:               has_both   No. Observations:                  818
+Model:                         Probit   Df Residuals:                      816
+Method:                           MLE   Df Model:                            1
+Date:                Tue, 28 May 2019   Pseudo R-squ.:                  0.1504
+Time:                        10:23:46   Log-Likelihood:                -355.18
+converged:                       True   LL-Null:                       -418.05
+Covariance Type:            nonrobust   LLR p-value:                 3.529e-29
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              0.1616      0.107      1.505      0.132      -0.049       0.372
+precon_overlap    -0.0393      0.004     -9.025      0.000      -0.048      -0.031
+==================================================================================
+Optimization terminated successfully.
+         Current function value: 0.561977
+         Iterations 6
+Optimization terminated successfully.
+         Current function value: 0.404673
+         Iterations 7
